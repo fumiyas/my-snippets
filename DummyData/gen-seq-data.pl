@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
 
+use strict;
+use warnings;
+
 if (@ARGV != 2) {
   printf("Usage: %s FILENAME SIZE\n", $0);
   exit(1)
